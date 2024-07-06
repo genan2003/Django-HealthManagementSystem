@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="29fb27bd-e2ea-4b6b-9779-84d7c923c0de" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/HealthAppointmentManager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/migrations/0002_medic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/migrations/0003_medic_email_pacient_email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/migrations/0004_alter_medic_email_alter_pacient_email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/migrations/0005_programare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/migrations/0007_programare_parafa_medic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/migrations/0008_programare_aprobat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/templates/create_appointment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/templates/create_programare.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/templates/homepage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/templates/medic_home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/templates/medic_search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/templates/pacient_home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/templates/programare_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthAppointmentManager/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthAppointmentManager/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthAppointmentManager/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthAppointmentManager/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthAppointmentManager/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2cMByR1NgL2VbE79ZATs9m20g9q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.HealthAppointmentManager.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/AppConcedii/App/models.py&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Proiect Comunicari stiintifice\HealthAppointmentManager\App" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HealthAppointmentManager" type="Python.DjangoServer" factoryName="Django server">
+      <module name="HealthAppointmentManager" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="HealthAppointmentManager.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (HealthAppointmentManager)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://localhost:8000" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29fb27bd-e2ea-4b6b-9779-84d7c923c0de" name="Changes" comment="" />
+      <created>1707911825915</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707911825915</updated>
+      <workItem from="1707911855394" duration="809000" />
+      <workItem from="1707933540388" duration="1579000" />
+      <workItem from="1707935136285" duration="4795000" />
+      <workItem from="1707952044016" duration="3794000" />
+      <workItem from="1707998157804" duration="361000" />
+      <workItem from="1708026745622" duration="567000" />
+      <workItem from="1708038794938" duration="3136000" />
+      <workItem from="1708130354953" duration="1169000" />
+      <workItem from="1708170603846" duration="1637000" />
+      <workItem from="1708213665378" duration="1738000" />
+      <workItem from="1708275262197" duration="238000" />
+      <workItem from="1708300867216" duration="1872000" />
+      <workItem from="1708472046491" duration="734000" />
+      <workItem from="1708520638891" duration="1020000" />
+      <workItem from="1708560881005" duration="620000" />
+      <workItem from="1708642228843" duration="2815000" />
+      <workItem from="1709337537853" duration="635000" />
+      <workItem from="1709338623619" duration="113000" />
+      <workItem from="1709413588778" duration="2864000" />
+      <workItem from="1709425676595" duration="1118000" />
+      <workItem from="1709461610324" duration="48000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    
+</head>
+<body>
+<h1>Programari</h1>
+{% for programare in programari %}
+    <p>Appointment for Dr. {{ programare.medic_name }} ({{ programare.medic_specializare }})
+        on {{ programare.Data }}: {{ programare.Descriere }}</p>
+    {% if programare.aprobat %}
+        <a href="{% url 'appointment_pdf' programare.Id %}">Download PDF</a>
+        <a href="{% url 'recomandare_pdf' programare.Id %}">Download Recomandare PDF</a>
+    {% endif %}
+{% endfor %}
+</body>
+</html>

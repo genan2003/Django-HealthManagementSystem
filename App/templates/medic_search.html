@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Results</title>
+</head>
+<body>
+<h1>Search Results</h1>
+{% if medics %}
+    <ul>
+        {% for medic in medics %}
+            <li>
+                <h2>{{ medic.Nume }} {{ medic.Prenume }}</h2>
+                <p>Specializare: {{ medic.specializare }}</p>
+                <p>Oras: {{ medic.oras }}</p>
+                <p>Contact: {{ medic.numar_de_telefon }}</p>
+                <a href="{% url 'create_appointment' medic.id %}">Make an appointment</a>
+            </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No medics found.</p>
+{% endif %}
+</body>
+</html>

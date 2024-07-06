@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.right-part {
+    width: 500px;
+    height: 500px;
+    background-color: #8EC2F2;
+    border: 1px solid #ccc;
+    position: absolute;
+    right: 0;
+    border-bottom-left-radius: 80px;
+}
+
+.left-part {
+    width: 100px;
+    height: 150px;
+    background-color: #8EC2F2;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 80px;
+}
+
+.center-part {
+    margin-top: 60px;
+    padding-top: 50px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+
+    /* This will shift the text so that it's truly centered,
+       not just the top left corner of it */
+    transform: translate(-50%, -50%);
+}
+
+.login-button {
+    /* This will make the background color blue */
+    background-color: #3196f3;
+
+    /* This will make the text color white */
+    color: white;
+
+    /* This will round the corners of the button */
+    border-radius: 12px;
+
+    /* This will remove the default button border */
+    border: none;
+
+    /* This will add some padding around the text */
+    padding: 10px 20px;
+
+    /* This will change the cursor to a pointer when hovering over the button */
+    cursor: pointer;
+
+    text-align: center;
+
+    font-weight: bold;
+}
+
+.register-button {
+    /* This will make the background color blue */
+    background-color: white;
+
+    /* This will make the text color white */
+    color: #3196f3;
+
+    /* This will round the corners of the button */
+    border-radius: 12px;
+
+    /* This will remove the default button border */
+    border: none;
+
+    /* This will add some padding around the text */
+    padding: 10px 20px;
+
+    /* This will change the cursor to a pointer when hovering over the button */
+    cursor: pointer;
+
+    text-align: center;
+
+    font-weight: bold;
+
+    border: 2px solid #3196f3;
+}
+
+.navbar {
+    /* This will make the navbar transparent */
+    background: transparent;
+
+    /* This will position the navbar at the top of the page */
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    /* This will add some padding around the links */
+    padding: 10px 0;
+
+    /* This will display the items in the navbar as a flex row */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* This will ensure the navbar is above other elements */
+    z-index: 1000;
+}
+
+.navbar-left {
+    /* This will position the logo and text on the left */
+
+    /* This will display the logo and text side by side */
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links {
+    /* This will center the links */
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    color: grey;
+    font-weight: bold;
+}
+
+.logo {
+    /* This will give the logo a fixed width */
+    width: 100px;
+
+    /* This will add some space to the right of the logo */
+    margin-right: 10px;
+}
+
+.navbar-text {
+    /* This will make the text bold */
+    font-weight: bold;
+
+    /* This will make the text bigger */
+    font-size: 2em;
+}
+
+.navbar-links a {
+    /* This will add some space between the links */
+    margin: 0 10px;
+
+    /* This will remove the underline from the links */
+    text-decoration: none;
+
+    /* This will make the links black */
+    color: black;
+}
+
+.box {
+    /* This will make the box white */
+    background-color: white;
+
+    /* This will give the box a fixed size */
+    width: 900px;
+    height: 600px;
+
+    /* This will position the box in the middle of the screen */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    /* This will shift the box so that it's truly centered,
+       not just the top left corner of it */
+    transform: translate(-50%, -50%);
+
+    border-radius: 20px;
+
+    padding: 40px;
+    padding-top: 100px;
+}
+
+div {
+    flex: 1 0 21%; /* This will allow 4 items per row. Adjust as needed. */
+    margin: 5px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-container img {
+    margin-left: 20px; /* Adjust this value to create space between the form and the image */
+}
